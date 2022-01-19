@@ -12,20 +12,8 @@ if(os.path.isfile(excel_file)):
 else:
     print("file not exist")
     quit()
-
-""" password check for tweety only
-passwd = input("Password: ", )
-if(passwd != "248622"):
-    print("bye!")
-    quit()
-"""
-
-
 workbook = openpyxl.load_workbook(excel_file)
-
 worksheetname = input("worksheet name:")
-
-#worksheetname = '工作表1' #hardcode for debugging
 worksheet = workbook[worksheetname]
 
 print("working on worksheet:", worksheetname)
