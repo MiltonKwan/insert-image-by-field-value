@@ -1,5 +1,5 @@
 # insert-image-by-field-value
-This project is insert image followed by name according to field value
+This project is insert image followed by name according to field value by using python module openpyxl, sys, os
 
 - Please place all images and xlsx file into same directory
 - after run the excel_photo.py
